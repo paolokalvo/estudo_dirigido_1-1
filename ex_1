@@ -1,6 +1,7 @@
-metros = float(input(print("Escreva um valor em metros:" )))
+salario = float(input(print("Qual o Valor do salario: ")))
+porcentagem = float(input(print("Quantos porcentos será o aumento: ")))
+aumento = salario * porcentagem / 100
+totalsal = salario + aumento
 
-mm = metros * 1000
-
-print("o valor em milimitros é:", mm,"mm")
-© 2019 GitHub, Inc.
+print ("O valor do aumento é: ",aumento)
+print ("O valor total do salario é: ", totalsal)
